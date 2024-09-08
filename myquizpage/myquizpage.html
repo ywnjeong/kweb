@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Quiz Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>My Quiz Page</h1>
+        <form id="quizform">
+            <!--1번 단답형-->
+            <div>
+                <p>1. 고려대학교의 개교년도는?</p>
+                <input type="text" id="q1">
+            </div>
+
+            <!--2번 선택형-->
+            <div>
+                <p>2. 고려대학교의 위치는?</p>
+                <label><input type="radio" name="radio1" value="안암동"> 안암동</label><br>
+                <label><input type="radio" name="radio1" value="신촌"> 신촌</label><br>
+                <label><input type="radio" name="radio1" value="서울대입구"> 서울대입구</label><br>
+                <label><input type="radio" name="radio1" value="대학로"> 대학로</label>
+            </div>
+
+            <!--3번 선택형-->
+            <div>
+                <p>3. 2+3의 결과는?</p>
+                <label><input type="radio" name="radio2" value="1"> 1</label><br>
+                <label><input type="radio" name="radio2" value="4"> 4</label><br>
+                <label><input type="radio" name="radio2" value="5"> 5</label><br>
+                <label><input type="radio" name="radio2" value="6"> 6</label>
+            </div>
+
+            <button type="button" onclick="checkanswer()">Submit</button>
+
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>

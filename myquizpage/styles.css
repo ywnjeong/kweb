@@ -1,0 +1,19 @@
+.correct{
+    background-color: blue;
+    color: white;
+}
+.wrong{
+    background-color: red;
+    color: white;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 8px 0;
+    width: 100%;    
+}
+form div{
+    margin-bottom: 20px;
+}
