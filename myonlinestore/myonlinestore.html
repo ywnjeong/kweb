@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Online Store</h1>
+        <div id="items">
+            장바구니 총 수량: <span id="itemcount">0</span>개, 총 가격: <span id="itemprice">0</span>KRW
+        </div>
+    </header>
+
+    <div class="product-list">
+        <div class="product">
+            <h2>Apple</h2>
+            <img src="apple.jpg" alt="Apple" class="product-img">
+            <p>가격: 700 KRW</p>
+            <button onclick="addtocart('Apple', 700)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h2>Orange</h2>
+            <img src="orange.jpg" alt="Orange" class="product-img">
+            <p>가격: 800 KRW</p>
+            <button onclick="addtocart('Orange', 800)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h2>Lemon</h2>
+            <img src="lemon.jpg" alt="Lemon" class="product-img">
+            <p>가격: 900 KRW</p>
+            <button onclick="addtocart('Lemon', 900)">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
