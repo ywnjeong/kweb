@@ -30,8 +30,6 @@ function checkanswer(){
             if (option.value===answers.q2){
                 option.parentNode.classList.add("correct");
             }
-        }
-        for (let option of q2answer){
             if (option.checked){
                 option.parentNode.classList.add("wrong");
             }
@@ -58,8 +56,6 @@ function checkanswer(){
             if (option.value===answers.q3){
                 option.parentNode.classList.add("correct");
             }
-        }
-        for (let option of q3answer){
             if (option.checked){
                 option.parentNode.classList.add("wrong");
             }
@@ -68,4 +64,3 @@ function checkanswer(){
 
     alert("당신의 점수는 "+score+"점입니다.");
 }
-
