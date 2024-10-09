@@ -1,0 +1,11 @@
+/.miscellaneous
+/.vscode
+/code_2
+/code_3
+/front_pg
+backend-essentials-v22.10.11.pdf
+*.pdf
+index.js
+*/node_modules
+/node_modules
+/Assignments/node_modules
